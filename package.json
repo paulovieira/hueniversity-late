@@ -1,0 +1,21 @@
+{
+    "version": "0.0.1",
+    "dependencies": {
+        "hapi": "*",
+        "hoek": "*",
+        "hapi-auth-basic": "*"
+    },
+
+    "devDependencies": {
+        "lab": "*",
+        "code": "*"
+    },
+
+    "scripts": {
+    	"start": "node lib/start.js",
+        "test": "make test",
+        "test-cov": "make test-cov"
+    }
+
+
+}
